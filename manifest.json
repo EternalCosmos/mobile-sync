@@ -3,7 +3,7 @@
   "name": "Mobile Sync",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
-  "description": "One-way vault sync from PC to Android over local WiFi",
+  "description": "One-way vault sync from PC to Android over local WiFi — no cloud, no account, no cables.",
   "author": "EternalCosmos",
   "authorUrl": "https://github.com/EternalCosmos",
   "isDesktopOnly": false
