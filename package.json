@@ -1,0 +1,21 @@
+{
+  "name": "obsyncdian",
+  "version": "1.0.0",
+  "description": "One-way vault sync from PC to Android over local WiFi",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "deploy": "node esbuild.config.mjs && node -e \"require('fs').copyFileSync('main.js', 'D:/Programms/Obsidian/Obisian Vaults/Python/.obsidian/plugins/obsyncdian/main.js')\"",
+    "dev": "node esbuild.config.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
