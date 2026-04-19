@@ -1,6 +1,6 @@
 {
-  "id": "obsyncdian",
-  "name": "Obsyncdian",
+  "id": "mobile-sync",
+  "name": "Mobile Sync",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
   "description": "One-way vault sync from PC to Android over local WiFi",
